@@ -34,7 +34,9 @@ Download [SQL Server 2017 Reporting Services](https://www.microsoft.com/download
 
 ## Before you begin
 
-Before you install Reporting Services, review the [Hardware and software requirements for installing SQL Server](../../sql-server/install/hardware-and-software-requirements-for-installing-sql-server.md).
+Before you install Reporting Services, review the [Hardware and software requirements for installing SQL Server](../../sql-server/install/hardware-and-software-requirements-for-installing-sql-server.md). Remove any existing SSRS installations. Control Panel > Uninstall SQL Server 2012 > Remove Feature option  > Remove Reporting Services.
+Manually delete the ReportServer Database and the Temp Report Server Database
+Delete the C:\Program Files\Microsoft SQL Server\MSRS11.MSSQLSERVER) folder.
 
 ## Install your report server
 
